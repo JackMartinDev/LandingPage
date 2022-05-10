@@ -5,13 +5,36 @@
 
 .flexbox-item {
   width: 200px;
-  margin: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.flexbox-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .image {
   border-style: solid;
   border-color: black;
+  border-radius: 8px;
   border-width: 2px;
+}
+
+.sign-up {
+  flex-direction: column;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.sign-up-image {
+  align-self: center;
+}
+
+.sign-up button {
+  width: 100px;
 }
 
 .div1 {
@@ -19,6 +42,43 @@
   height: 350px;
 }
 
-p {
+.info {
+  background-color: white;
+  height: 300px;
+}
+
+.info p {
   text-align: center;
+}
+
+.quote-div {
+  flex-direction: column;
+  background-color: lightslategrey;
+  height: 300px;
+}
+
+.quote-div p {
+  font-size: larger;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.quote-div b {
+  text-align: end;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.action-div {
+  background-color: rgb(25, 149, 231);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-around;
+}
+
+.action-div button {
+  justify-self: center;
 }
