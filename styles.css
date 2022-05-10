@@ -1,0 +1,24 @@
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 20px;
+}
+
+.image {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.div1 {
+  background-color: dodgerblue;
+  height: 350px;
+}
+
+p {
+  text-align: center;
+}
